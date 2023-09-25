@@ -65,6 +65,16 @@ header{
 
 @media (max-width:1000px){
     
+    body{
+        padding-top: 50px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    header{
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     .me{
        opacity: 20%;
        top: 20%;
@@ -72,12 +82,20 @@ header{
 
     .name{
         margin-top: 65px;
-        font-size: 30px;
+        font-size: 25px;
         
-    }
+    }   
     .title{
         margin-top: 40px;
-        font-size: 70px;
+        font-size: 60px;
       
     } 
+    .about{
+        width: 100%;
+    }
+    .content{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    
 }
